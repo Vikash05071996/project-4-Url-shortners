@@ -1,5 +1,5 @@
 # Thorium Group Members (29)
-1. Prakash Sah
+1. 
 2. Vikash Singh
 
 ## Scalable URL Shortner Project Requirement
@@ -35,7 +35,10 @@ If you haven’t used tinyurl.com before, please try creating a new shortened UR
 ### Models
 - Url Model
 ```
-{ urlCode: { mandatory, unique, lowercase, trim }, longUrl: {mandatory, valid url}, shortUrl: {mandatory, unique} }
+{ urlCode: { mandatory, 
+unique, lowercase, trim },
+ longUrl: {mandatory, valid url},
+  shortUrl: {mandatory, unique} }
 ```
 
 ### POST /url/shorten
